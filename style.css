@@ -139,7 +139,7 @@ nav .menu a:hover{
 .about-info .info-card{
     background-color: #fff;
     width: 322px;
-    height: 300px;
+    height: 272px;
     justify-content: center;
     align-items: center;
     padding: 24px;
@@ -171,4 +171,53 @@ nav .menu a:hover{
     font-size: 16px;
     color: #627382;
     line-height: 20px;
+}
+#brain-design{
+    padding: 120px 0;
+}
+.brain-content{
+    display: flex;
+    gap: 60px;
+}
+.brain-image{
+    width: 600px;
+    height: 600px;
+}
+.brain-content .brain-text{
+    padding-top: 102px;
+    max-width: 700px;
+    
+}
+.brain-text .green{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+.brain-text h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.brain-text p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+.brain-text ul li{
+    list-style: none;
+    padding-bottom: 16px;
+}
+.brain-text li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+.brain-text img{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
 }
