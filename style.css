@@ -172,7 +172,7 @@ nav .menu a:hover{
     color: #627382;
     line-height: 20px;
 }
-#brain-design{
+#brain-design {
     padding: 120px 0;
 }
 .brain-content{
@@ -221,6 +221,9 @@ nav .menu a:hover{
     height: 20px;
     flex-shrink: 0;
 }
+#Think-more{
+    padding-bottom: 120px;
+}
 .think-bg{
     background-color: #F7F6F2;
     text-align: center;
@@ -237,4 +240,33 @@ nav .menu a:hover{
     line-height: 24px;
     color: #627382;
     padding-bottom: 24px;
+}
+footer{
+   padding-top: 120px;
+    background-color: #001931;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.social-links {
+color: #fff;
+}
+.social-links p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    padding-bottom: 16px;
+}
+.social-links .icons{
+    display: flex;
+     gap: 10px;
+}
+footer .copyright{
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 30px 0;
 }
