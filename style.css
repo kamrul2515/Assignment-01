@@ -114,7 +114,7 @@ nav .menu a:hover{
 }
 #structure{
     
-    background-color: rgb(229, 230, 231);
+    background-color: #F7F6F2;
 }
 .structure-content{
     padding-top: 90px;
@@ -220,4 +220,21 @@ nav .menu a:hover{
     width: 20px;
     height: 20px;
     flex-shrink: 0;
+}
+.think-bg{
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px;
+}
+.think-heading h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+}
+.think-heading p{
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
 }
