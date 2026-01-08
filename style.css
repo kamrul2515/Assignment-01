@@ -112,3 +112,63 @@ nav .menu a:hover{
     max-width: 766px;
     padding-bottom: 32px;
 }
+#structure{
+    
+    background-color: rgb(229, 230, 231);
+}
+.structure-content{
+    padding-top: 90px;
+    text-align: center;
+}
+#structure .structure-content .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.section-heading h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.section-heading .info{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    padding-bottom: 44px;
+}
+.about-info .info-card{
+    background-color: #fff;
+    width: 322px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    margin-right: 16px;
+    /* gap: 24px; */
+}
+.about-info .info-card .stack{
+    width: 32px;
+    height: 32px;
+
+}
+.color-box{
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 39px 99px 16px;
+}
+.color-box img{
+    margin-top: 14px;
+}
+.info-card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    padding-bottom: 16px;
+}
+.info-card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
